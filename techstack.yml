@@ -1,0 +1,1794 @@
+repo_name: Bijikyu/canhcam-cab
+report_id: 651de5a1554cb94c6e79bbac2ad406f6
+repo_type: Public
+timestamp: '2023-12-02T21:34:50+00:00'
+requested_by: ngocsangyem
+provider: github
+branch: master
+detected_tools_count: 132
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Pug
+  description: Robust, elegant, feature rich template engine for nodejs
+  website_url: https://pugjs.org
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1175/pug.png
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-05-04 08:05:47.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-08 02:38:34.000000000 Z
+- name: 'Animate.css '
+  description: A library of CSS animations
+  website_url: https://animate.style/
+  version: 3.7.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/9195/default_5aa00f79c6648507ba5f6c66c130a832332e5adc.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-18 16:05:33.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-18 16:05:33.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 10.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-07-03 15:19:35.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-05-04 08:05:47.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-05-04 08:05:47.000000000 Z
+- name: Select2
+  description: The jQuery replacement for select boxes
+  website_url: https://select2.github.io/
+  version: 4.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/7488/select2.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-29 06:26:25.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-07 03:02:56.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: ".babelrc"
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-08 02:38:34.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 16.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-05-04 08:05:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JSHint
+  description: A Static Code Analysis Tool for JavaScript
+  website_url: http://www.jshint.com/about/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-05-04 08:05:47.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-08 02:38:34.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  version: 2.1.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-08 02:38:34.000000000 Z
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  version: 5.15.1
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: Gifsicle
+  description: Gifsicle is a command-line tool for creating, editing, and getting
+    information about GIF images and animations.
+  website_url: https://www.lcdf.org/gifsicle/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7064/logo.gif
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: CAB-DAB/archive/index.html
+- name: Imagemin
+  website_url: https://github.com/imagemin/imagemin
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3378/7868808.png
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.10
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-29 06:26:25.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.22.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-28 01:15:55.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: fancybox
+  description: JavaScript lightbox library for presenting various types of media
+  website_url: http://fancyapps.com/fancybox/3/
+  version: 3.3.5
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/8986/ndGU91r2_400x400.jpg
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-07-03 08:39:22.000000000 Z
+- name: svgo
+  website_url: https://github.com/svg/svgo
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8443/2473585.png
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: "@fortawesome/fontawesome-free"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-free
+  version: 5.15.1
+  license: CC-BY-4.0,OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17170/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: archiver
+  description: A streaming interface for archive generation
+  package_url: https://www.npmjs.com/archiver
+  version: 5.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16407/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.26.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: babel-preset-env
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/babel-preset-env
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15814/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: babelify
+  description: Babel browserify transform
+  package_url: https://www.npmjs.com/babelify
+  version: 10.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15993/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.26.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: browserify-shim
+  description: Makes CommonJS-incompatible modules browserifyable
+  package_url: https://www.npmjs.com/browserify-shim
+  version: 3.8.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16678/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: clean-css
+  description: A well-tested CSS minifier
+  package_url: https://www.npmjs.com/clean-css
+  version: 4.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16486/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: compression
+  description: Node.js compression middleware
+  package_url: https://www.npmjs.com/compression
+  version: 1.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-05-04 08:05:47.000000000 Z
+- name: envify
+  description: Selectively replace Node-style environment variables with plain strings
+  package_url: https://www.npmjs.com/envify
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16578/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.1.6
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-autoprefixer
+  description: Prefix CSS
+  package_url: https://www.npmjs.com/gulp-autoprefixer
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16090/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-babel
+  description: Use next generation JavaScript, today
+  package_url: https://www.npmjs.com/gulp-babel
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15963/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-beautify
+  description: Asset beautification using js-beautify
+  package_url: https://www.npmjs.com/gulp-beautify
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18342/default_d79f6942d35f0cd16cfad8861080cadb125b3aca.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-changed
+  description: Only pass through changed files
+  package_url: https://www.npmjs.com/gulp-changed
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16619/default_8bb559d64720e298d7108ccd64281e535c1c76a8.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-clean
+  description: A gulp plugin for removing files and folders
+  package_url: https://www.npmjs.com/gulp-clean
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16218/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-clean-css
+  description: Minify css with clean-css
+  package_url: https://www.npmjs.com/gulp-clean-css
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16301/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-coffee
+  description: Compile CoffeeScript files
+  package_url: https://www.npmjs.com/gulp-coffee
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16450/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-concat-css
+  description: Concatenate css files, rebasing urls and inlining @import
+  package_url: https://www.npmjs.com/gulp-concat-css
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18171/default_1c374415da66da02889ffc62ee7f291d4e2a3805.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-csso
+  description: Minify CSS with CSSO
+  package_url: https://www.npmjs.com/gulp-csso
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17199/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-eslint
+  description: A gulp plugin for processing files with ESLint
+  package_url: https://www.npmjs.com/gulp-eslint
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16009/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-file
+  description: Create vinyl files from a string or buffer and insert into the Gulp
+    pipeline
+  package_url: https://www.npmjs.com/gulp-file
+  version: 0.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17493/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-header
+  description: Gulp extension to add header to file
+  package_url: https://www.npmjs.com/gulp-header
+  version: 2.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16259/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-htmlmin
+  description: Gulp plugin to minify HTML
+  package_url: https://www.npmjs.com/gulp-htmlmin
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16821/default_9a5182350af29cb82b3344853e865051f508ac6c.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-if
+  description: Conditionally run a task
+  package_url: https://www.npmjs.com/gulp-if
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16211/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-imagemin
+  description: Minify PNG, JPEG, GIF and SVG images
+  package_url: https://www.npmjs.com/gulp-imagemin
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16485/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-inject
+  description: A javascript, stylesheet and webcomponent injection plugin for Gulp,
+    i.e
+  package_url: https://www.npmjs.com/gulp-inject
+  version: 5.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17107/default_cd46073ead3b39efb82d67472bd530a8fbcbda52.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-jade
+  description: Compile Jade templates
+  package_url: https://www.npmjs.com/gulp-jade
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17280/default_116e98e237458e603feb81cfbf628c00544be692.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-jshint
+  description: JSHint plugin for gulp
+  package_url: https://www.npmjs.com/gulp-jshint
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16050/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-less
+  description: Less for Gulp
+  package_url: https://www.npmjs.com/gulp-less
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16267/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-load-plugins
+  description: Automatically load any gulp plugins in your package.json
+  package_url: https://www.npmjs.com/gulp-load-plugins
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16154/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-minify-css
+  description: Minify css with clean-css
+  package_url: https://www.npmjs.com/gulp-minify-css
+  version: 1.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16291/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-minify-html
+  description: Minify html with minimize
+  package_url: https://www.npmjs.com/gulp-minify-html
+  version: 1.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17459/default_2a4dc012d9584af49ba34825451ae7a5a8d75e4b.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-notify
+  description: Gulp plugin to send messages based on Vinyl Files or Errors to Mac
+    OS X, Linux or Windows using the node-notifier module
+  package_url: https://www.npmjs.com/gulp-notify
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16337/default_19913b5a2ce8aaeed5a69f95974f9afd07e8e8bc.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-plumber
+  description: Prevent pipe breaking caused by errors from gulp plugins
+  package_url: https://www.npmjs.com/gulp-plumber
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16033/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-postcss
+  description: PostCSS gulp plugin
+  package_url: https://www.npmjs.com/gulp-postcss
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16282/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-pug
+  description: Gulp plugin for compiling Pug templates
+  package_url: https://www.npmjs.com/gulp-pug
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17635/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-replace
+  description: A string replace plugin for gulp
+  package_url: https://www.npmjs.com/gulp-replace
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16150/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-rev
+  description: 'Static asset revisioning by appending content hash to filenames: unicorn.css
+    =&gt; unicorn-d41d8cd98f.css'
+  package_url: https://www.npmjs.com/gulp-rev
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17180/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-rev-replace
+  description: Rewrite occurences of filenames which have been renamed by gulp-rev
+  package_url: https://www.npmjs.com/gulp-rev-replace
+  version: 0.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18237/default_b102609c7a7fb86f3c2ca3ec026f3011d275978b.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-sass
+  description: Gulp plugin for sass
+  package_url: https://www.npmjs.com/gulp-sass
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16002/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-sourcemaps
+  description: Source map support for Gulp.js
+  package_url: https://www.npmjs.com/gulp-sourcemaps
+  version: 2.6.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15958/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-strip-comments
+  description: Strip comments from code
+  package_url: https://www.npmjs.com/gulp-strip-comments
+  version: 2.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18072/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-stylus
+  description: Stylus plugin for gulp
+  package_url: https://www.npmjs.com/gulp-stylus
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16928/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-template
+  description: Render/precompile Lodash/Underscore templates
+  package_url: https://www.npmjs.com/gulp-template
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16872/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-useref
+  description: Parse build blocks in HTML files to replace references to non-optimized
+    scripts or stylesheets
+  package_url: https://www.npmjs.com/gulp-useref
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17520/default_0b7f20f712cc7ba96f6445246813407719ce8f32.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  version: 3.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: gulp-watch
+  description: Watch, that actually is an endless stream
+  package_url: https://www.npmjs.com/gulp-watch
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16175/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: jade
+  description: A clean
+  package_url: https://www.npmjs.com/jade
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16163/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: jshint-stylish
+  description: Stylish reporter for JSHint
+  package_url: https://www.npmjs.com/jshint-stylish
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16031/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-05-04 08:05:47.000000000 Z
+- name: karma-browserify
+  description: A fast browserify integration for Karma that handles large projects
+    with ease
+  package_url: https://www.npmjs.com/karma-browserify
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16294/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: karma-phantomjs-launcher
+  description: A Karma plugin. Launcher for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-launcher
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: main-bower-files
+  description: Get main files from your installed bower packages
+  package_url: https://www.npmjs.com/main-bower-files
+  version: 2.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17637/default_e1c4f2497325ac0d57aca0c3473ca18d24eb8a13.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+- name: npm-check-updates
+  description: Find newer versions of dependencies than what your package.json or
+    bower.json allows
+  package_url: https://www.npmjs.com/npm-check-updates
+  version: 9.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16610/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.14.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-27 15:04:15.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: run-sequence
+  description: Run a series of dependent gulp tasks in order
+  package_url: https://www.npmjs.com/run-sequence
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16004/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-05-04 08:05:47.000000000 Z
+- name: vinyl-buffer
+  description: Convert streaming vinyl files to use buffers
+  package_url: https://www.npmjs.com/vinyl-buffer
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16203/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: vinyl-source-stream
+  description: Use conventional text streams at the start of your gulp or vinyl pipelines
+  package_url: https://www.npmjs.com/vinyl-source-stream
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16081/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: watchify
+  description: Watch mode for browserify builds
+  package_url: https://www.npmjs.com/watchify
+  version: 3.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16087/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: wiredep
+  description: Wire Bower dependencies to your source code
+  package_url: https://www.npmjs.com/wiredep
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17368/default_2613a99266d0023b6108b16e4d6613c439a64039.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: sanggnguyenn
+  last_updated_on: 2020-10-10 10:53:05.000000000 Z
+- name: wrench
+  description: Recursive filesystem
+  package_url: https://www.npmjs.com/wrench
+  version: 1.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16688/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/core/package.json
+  detection_source: core/package.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-05-04 08:05:47.000000000 Z
+- name: animate.css
+  description: A cross-browser library of CSS animations
+  package_url: http://bower.io/animate.css
+  version: 3.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-18 16:05:33.000000000 Z
+- name: bootstrap-datepicker
+  description: A datepicker for @twitter bootstrap forked from Stefan Petre's
+  package_url: http://bower.io/bootstrap-datepicker
+  version: 1.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-18 16:05:33.000000000 Z
+- name: bootstrap-touchspin
+  description: Bootstrap TouchSpin is a mobile and touch friendly input spinner component
+    for Bootstrap 3 &amp; 4
+  package_url: http://bower.io/bootstrap-touchspin
+  version: 4.2.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-18 16:05:33.000000000 Z
+- name: bootstrap-validator
+  description: A user-friendly HTML5 Form validator for Bootstrap 3
+  package_url: http://bower.io/bootstrap-validator
+  version: 0.11.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-18 16:05:33.000000000 Z
+- name: elevatezoom
+  package_url: http://bower.io/elevatezoom
+  version: 2.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-04 01:54:44.000000000 Z
+- name: fancybox
+  description: FancyBox is a tool that offers a nice and elegant way to add zooming
+    functionality for images
+  package_url: http://bower.io/fancybox
+  version: 3.3.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-07-03 08:39:22.000000000 Z
+- name: freewall
+  description: Amazing grid layout
+  package_url: http://bower.io/freewall
+  version: 1.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-04 01:54:44.000000000 Z
+- name: jquery.scrollbar
+  description: JQuery CSS Customizable Scrollbar
+  package_url: http://bower.io/jquery.scrollbar
+  version: 0.2.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-07 03:02:56.000000000 Z
+- name: k-gmaps
+  description: JQuery Google Map Easy to SEO
+  package_url: http://bower.io/k-gmaps
+  version: 1.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-08 02:38:34.000000000 Z
+- name: k-responsive-menu
+  description: K-responsive-menu is a lightweight jQuery plugin to create responsive
+    multi-level navigation menus with multi device support
+  package_url: http://bower.io/k-responsive-menu
+  version: 4.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-09 14:31:39.000000000 Z
+- name: k-sass-core
+  description: 'K-sass-core: An SASS Lib'
+  package_url: http://bower.io/k-sass-core
+  version: 6.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-28 01:15:55.000000000 Z
+- name: lightgallery
+  description: A customizable, modular, responsive, lightbox gallery plugin
+  package_url: http://bower.io/lightgallery
+  version: 1.6.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-04 01:54:44.000000000 Z
+- name: linearicons
+  description: Linearicons is the highest quality set of line icons
+  package_url: http://bower.io/linearicons
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-07 13:01:17.000000000 Z
+- name: lodash
+  description: A modern JavaScript utility library delivering modularity
+  package_url: http://bower.io/lodash
+  version: 4.17.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-29 06:26:25.000000000 Z
+- name: mdi
+  description: Bower/NPM Dist for Material Design Webfont
+  package_url: http://bower.io/mdi
+  version: 2.6.95
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-08 02:38:34.000000000 Z
+- name: moment
+  description: Parse
+  package_url: http://bower.io/moment
+  version: 2.22.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-28 01:15:55.000000000 Z
+- name: offline
+  description: Automatically detect when a browser is offline
+  package_url: http://bower.io/offline
+  version: 0.7.19
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-06-07 13:01:17.000000000 Z
+- name: owl.carousel
+  description: JQuery Responsive Carousel
+  package_url: http://bower.io/owl.carousel
+  version: 2.3.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-29 06:26:25.000000000 Z
+- name: seiyria-bootstrap-slider
+  description: A slider element for bootstrap 4
+  package_url: http://bower.io/seiyria-bootstrap-slider
+  version: 10.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-18 16:05:33.000000000 Z
+- name: select2
+  description: Select2 is a jQuery based replacement for select boxes
+  package_url: http://bower.io/select2
+  version: 4.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-29 06:26:25.000000000 Z
+- name: slick-carousel
+  description: The last carousel you'll ever need
+  package_url: http://bower.io/slick-carousel
+  version: 1.8.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Bảo Nguyên
+  last_updated_on: 2018-04-29 06:26:25.000000000 Z
+- name: swiper
+  description: Most modern mobile touch slider and framework with hardware accelerated
+    transitions
+  package_url: http://bower.io/swiper
+  version: 4.3.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: github.com/Bijikyu/canhcam-cab/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Phaj Nướng
+  last_updated_on: 2018-08-18 16:05:33.000000000 Z
